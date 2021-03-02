@@ -1,11 +1,19 @@
 .header {
   background-color: #282c34;
-  min-height: 8vh;
+  min-height: 12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.title{
   font-size: calc(10px + 2vmin);
   color: white;
-  text-align: center;
+}
+
+.description {
+  font-size: calc(6px + 1vmin);
+  color: white;
 }

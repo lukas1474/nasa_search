@@ -1,0 +1,15 @@
+.photoCube, .mapCube {
+  height: 500px;
+  border: 1px solid black;
+}
+
+.mapCubeContainer {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+}
