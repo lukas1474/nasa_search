@@ -4,6 +4,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './styles/global.scss';
 
+import mapboxgl from 'mapbox-gl/dist/mapbox-gl-csp';
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker';
+
+mapboxgl.workerClass = MapboxWorker;
+mapboxgl.accessToken = 'pk.eyJ1IjoibHVrYXN6c29iIiwiYSI6ImNrbHJ6dnJubDFyeXUyb24zN2c0bnpwMW4ifQ.pzOrYcZk96CsYNmgeWFDpw';
 ReactDOM.render(
   <React.StrictMode>
     <App />
