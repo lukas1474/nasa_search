@@ -1,13 +1,15 @@
 import React from 'react';
-import MainLayout from './components/layout/MainLayout/MainLayout';
-import MainView from './components/views//MainView/MainView';
+
 import './styles/bootstrap.scss';
+
+import MainLayout from './components/layout/MainLayout/MainLayout';
+import Search from './components/views/Search/Search';
 
 function App() {
   return (
     <div className="App">
       <MainLayout>
-        <MainView/>
+        <Search/>
       </MainLayout>
     </div>
   );

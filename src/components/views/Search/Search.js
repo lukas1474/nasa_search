@@ -10,16 +10,12 @@ const Search = () => {
   const [search, setSearch] = useState('');
   const [name, setName] = useState();
 
-  console.log(search);
-
   const handleSearch = (event) => {
-    console.log(event.currentTarget.value);
     fetch(SEARCH_ENDPOINT_URL(event.currentTarget.value))
       .then((res) => {
         return res.json();
       }).then(res => {
         setOptions(res.features);
-        console.log('coś', res.features);
       });
   };
 
@@ -32,17 +28,15 @@ const Search = () => {
     setSearch(option.geometry.coordinates);
     setName(option.place_name);
     setOptions([]);
-    const latlon = option.geometry.coordinates;
-    console.log('search', search);
   };
 
   return(
     <div className={styles.root}>
       <input type="text" value={name} onKeyUp={handleSearch} onChange={handleChange} className/>
-      {options.length ? (
+      {options ? (
         <ul className={styles.optionsUl}>
           {options && options.map(option => (
-            <li key={option.place} className={styles.optionsLi}>
+            <li key={option.id} className={styles.optionsLi}>
               <button
                 onClick={() => handleKeyPress(option)}
               >
@@ -58,4 +52,5 @@ const Search = () => {
     </div>
   );
 };
+
 export default Search ;
