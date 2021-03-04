@@ -32,7 +32,7 @@ const Search = () => {
 
   return(
     <div className={styles.root}>
-      <input type="text" value={name} onKeyUp={handleSearch} onChange={handleChange} className/>
+      <input type="text" value={name} onKeyUp={handleSearch} onChange={handleChange}/>
       {options ? (
         <ul className={styles.optionsUl}>
           {options && options.map(option => (
