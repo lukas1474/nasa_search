@@ -1,7 +1,6 @@
 # NASA search
 
-<<<<<<< HEAD
-A simple application where you can search for a location that interests you and see its satellite photo from NASA :)
+Simple application where you can search for a location that interests you and see it satellite photo from NASA :)
 
 ## Development
 
@@ -32,6 +31,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-=======
-Simple application where you can search for a location that interests you and see it satellite photo from NASA :)
->>>>>>> 92aabc66550a4dfce99af6f40ece6144be2c590b
