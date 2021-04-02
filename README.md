@@ -2,7 +2,7 @@
 
 Simple application where you can search for a location that interests you and see it satellite photo from NASA :)
 
-## Install preparation of the required files
+1. ## Install and preparation of the required files
 
 install dependencies if necessary:
 
@@ -24,7 +24,7 @@ AN ACCESS KEYS ARE REQUIRED FOR CORRECT OPERATION OF THE APPLICATION.
 2. NASA
    The key can be generated on the site: https://api.nasa.gov
 
-## Usage
+3. ## Usage
 
 In the project directory, you can run:
 
@@ -36,6 +36,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-## Author
+3. ## Author
 
 Łukasz Sobel
