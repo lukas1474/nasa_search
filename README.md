@@ -2,7 +2,7 @@
 
 Simple application where you can search for a location that interests you and see it satellite photo from NASA :)
 
-1. ## Install and preparation of the required files
+## Install and preparation of the required files
 
 install dependencies if necessary:
 
@@ -14,7 +14,7 @@ and then:
 - define REACT_APP_MAPBOXGL_ACCESS_TOKEN in .env
 - define REACT_APP_NASA_ACCESS_KEY in .env
 
-## IMPORTANT!
+### IMPORTANT!
 
 AN ACCESS KEYS ARE REQUIRED FOR CORRECT OPERATION OF THE APPLICATION.
 
@@ -24,7 +24,7 @@ AN ACCESS KEYS ARE REQUIRED FOR CORRECT OPERATION OF THE APPLICATION.
 2. NASA
    The key can be generated on the site: https://api.nasa.gov
 
-3. ## Usage
+## Usage
 
 In the project directory, you can run:
 
@@ -36,6 +36,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-3. ## Author
+## Author
 
 Łukasz Sobel
